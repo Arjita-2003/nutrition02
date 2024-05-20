@@ -17,12 +17,15 @@
             overflow-x: hidden;
         }
 
+        
+        div.overlay {
+            opacity: .8;
+        }
         #header{
             background: black;
             height: 50px;
             font-family: algerian;
         }
-
         #contentwrapper{
             float: left;
             width: 100%;
@@ -37,14 +40,14 @@
             float: left;
             margin-left: -100%;
             width: 230px;
-            background-color: rgb(218, 189, 102);
+            background-color: rgb(179, 85, 107);
         }
 
         #rightcolumn{
             float: right;
             margin-left: -230%;
             width: 180px;
-            background-color: rgb(93, 148, 202);
+            background-color: rgb(162, 71, 66);
         }
 
         .innertext{
@@ -62,7 +65,7 @@
         }
 
         img{
-            background-repeat: repeat;
+            background-repeat: no-repeat;
         }
 
         div.paginationDiv {
@@ -96,7 +99,7 @@
             width: 100%;
             background-color: black;
             color: #FFF;
-            font-family: Algerian;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
             padding: 15px;
         }
@@ -184,10 +187,7 @@
             <li><a href="#news">About Us</a></li>
             <li><a href="#contact">Contact</a></li>  
             </ul>
-            <!--<table align="right" width="15%"><tr>
-                <td><a href="#login"><font color="white">Login</font></a></td>
-                <td><a href="#signup"><font color="white">Sign Up</font></a></td>
-            </tr></table>-->
+          
             <div class="paginationDiv">
                 <ul id="paginationLinks">
                     <li><a href="#login">Login</a></li>
@@ -200,40 +200,57 @@
 
         <div id="contentwrapper">
             <div id="contentcolumn">
+                    <div class="overlay">
+                        <img src="2.jpg" bordercolor="brown" alt="Image Not Found" height="20%" width="105%"> 
+                    </div>
                 <div class="innertext">
-                    <b><h2><center>What did you eat?</center></h2></b>
+                    <b><h2><center><font color="black">What did you eat?</font></center></h2></b>
                     <div class="topnav">
                         <center><input type="text" placeholder="Search.."></center>
                     </div>
      
                 </div>
+
+                <table width="100%" height="300" border="0" bgcolor="white" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <table width="100%" height="300" border="0" cellspacing="2" cellpadding="2" align="center">
+                                <tr>
+                                    <td><a href="http://127.0.0.1:5500/nutrition.html/data.html"><img src="4.jpg" border="2" bordercolor="brown" alt="Image Not Found" height="250" width="100%"></a></td>
+                                    <td><img src="3.jpg" border="2" bordercolor="brown" alt="Image Not Found" height="250" width="100%"></td>
+                                    <td><img src="1.jpg" border="2" bordercolor="brown" alt="Image Not Found" height="250" width="100%"></td>
+
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
-
+        
         <div id="leftcolumn">
             <div class="innertext">
-                <center><b>Heading</b></center>
+                <center><b>*Let's Go*</b></center>
                 Get Ready to know what you eat!<br>
                 Are you getting enough Nutrition?<br>
                 <br>
-                <em><font color="red">Check it out in <b>Nutrition Teller!</b></font></em><br><br>
+                <em><font color="yellow">Check it out in <b>Nutrition Teller!</b></font></em><br><br>
                 -> Count Calories<br>
                 -> Maintain Nutrition<br>
                 -> Weekly/Monthly Data<br>
                 -> Indian Cultural food<br>
                 -> Water Intake<br>
-                -> Some wholesome Suggestion
             </div>
         </div>
 
         <div id="rightcolumn">
             <div class="innertext">
-                <font type="georgia"><b><em>Facts: </em></b></font>
+                <font type="georgia" color="cyan"><b><em>Facts: </em></b></font>
                     Do not drink water right after your meals. It dilutes the digestive engymes 
                     leading you to bad digestion !!!
             </div>
         </div>
-        
+        <div id="footer">Queries(Contact):- arjitasarkar2811@gmail.com</div>
     </div>
 </body>
 </html>
